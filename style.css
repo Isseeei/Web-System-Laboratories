@@ -1,0 +1,22 @@
+.btn{
+text-decoration: none;
+border: 3px solid orange;
+padding: 5px;
+border-radius: 10px;
+color: black;
+}
+
+.btn:hover{
+    background-color: orange;
+    color: black;
+    padding: 7px;
+}
+
+@font-face{
+    font-family: New Amsterdam;
+    src: url('NewAmsterdam-Regular.ttf')
+}
+
+body{
+     font-family: New Amsterdam;
+}
