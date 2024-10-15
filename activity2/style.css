@@ -1,0 +1,49 @@
+/* Dark Mode Customizations */
+body {
+    background-color: #121212; /* Dark background for the whole page */
+    color: #e0e0e0; /* Lighter text color for general content */
+}
+
+.card {
+    background-color: #1e1e1e; /* Darker card background */
+    border: 1px solid #333; /* Dark border for the card */
+}
+
+.card-header {
+    background-color: #333; /* Slightly lighter header background */
+    color: #f8f9fa; /* Light text in the card header */
+}
+
+.form-control {
+    background-color: #333; /* Dark input fields */
+    color: #e0e0e0; /* Light input text */
+    border: 1px solid #555; /* Darker borders for inputs */
+}
+
+.btn-primary {
+    background-color: #6200ea; /* Darker primary button */
+    border-color: #3700b3; /* Darker button border */
+}
+
+.btn-danger {
+    background-color: #ff5733; /* Red button color for "Delete" */
+    border-color: #e04e00; /* Darker red border */
+}
+
+hr {
+    border-color: #555; /* Lighter separator lines */
+}
+
+.artist-name {
+    font-style: italic;
+}
+
+.search-bar::placeholder {
+    color: #ffffff; /* White placeholder text */
+    opacity: 1; /* Ensure the placeholder is fully visible */
+}
+
+.form-control::placeholder {
+    color: #ffffff; /* White placeholder text */
+    opacity: 1; /* Ensure the placeholder is fully visible */
+}
