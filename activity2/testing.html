@@ -18,35 +18,42 @@
                     </div>
                     <div class="card-body">
                         <div class="playlist-header d-flex justify-content-between align-items-center mb-3">
-                            <input type="text" class="search-bar form-control bg-dark text-light border-light w-50" placeholder="Search for a song...">
+                            <div class="d-flex w-50">
+                                <input type="text" class="search-bar form-control bg-dark text-light border-light" placeholder="Search for a song...">
+                                <button type="submit" id="add-button" class="btn btn-primary ms-2">Search</button>
+                            </div>
                         </div>
+                        
     
                         <ul id="Songs" class="list-unstyled">
-                            <hr class="border-light">
                             <li class="song d-flex justify-content-between align-items-center mb-3">
                                 <div>
-                                    <p class="song-title mb-0 text-light">Heaven Knows</p>
-                                    <small class="artist-name text-light"> - Orange & Lemons</small>
+                                    <p class="song-title mb-0 text-light ">Heaven Knows</p>
+                                    <small class="artist-name text-light">Orange & Lemons</small>
                                 </div>
                                 <button class="btn btn-danger btn-sm delete">Delete</button>
                             </li>
-                            <hr class="border-light">
                             <li class="song d-flex justify-content-between align-items-center mb-3">
                                 <div>
                                     <p class="song-title mb-0 text-light">Dancin'</p>
-                                    <small class="artist-name text-light"> - Aaron Smith</small>
+                                    <small class="artist-name text-light">Aaron Smith</small>
                                 </div>
                                 <button class="btn btn-danger btn-sm delete">Delete</button>
                             </li>
-                            <hr class="border-light">
                             <li class="song d-flex justify-content-between align-items-center mb-3">
                                 <div>
                                     <p class="song-title mb-0 text-light">When I Was Your Man</p>
-                                    <small class="artist-name text-light"> - Bruno Mars</small>
+                                    <small class="artist-name text-light">Bruno Mars</small>
                                 </div>
                                 <button class="btn btn-danger btn-sm delete">Delete</button>
                             </li>
-                            <hr class="border-light">
+                            <li class="song d-flex justify-content-between align-items-center mb-3">
+                                <div>
+                                    <p class="song-title mb-0 text-light">Espresso</p>
+                                    <small class="artist-name text-light">Sabrina Carpenter</small>
+                                </div>
+                                <button class="btn btn-danger btn-sm delete">Delete</button>
+                            </li>
                         </ul>
                     </div>
                 </div>

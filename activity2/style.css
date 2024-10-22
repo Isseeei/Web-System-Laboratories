@@ -9,6 +9,20 @@ body {
     border: 1px solid #333; /* Dark border for the card */
 }
 
+.song {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+}
+
+.song-title {
+    font-weight: bold;
+}
+
 .card-header {
     background-color: #333; /* Slightly lighter header background */
     color: #f8f9fa; /* Light text in the card header */
@@ -28,10 +42,6 @@ body {
 .btn-danger {
     background-color: #ff5733; /* Red button color for "Delete" */
     border-color: #e04e00; /* Darker red border */
-}
-
-hr {
-    border-color: #555; /* Lighter separator lines */
 }
 
 .artist-name {

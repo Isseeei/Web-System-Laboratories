@@ -27,7 +27,7 @@ addForm.addEventListener('submit', function(e) {
 
         const artist = document.createElement('small');
         artist.classList.add('artist-name', 'text-light');
-        artist.textContent = ' - ' + artistName;
+        artist.textContent = '' + artistName;
         
         // Add song title and artist to song details div
         songDetails.appendChild(songName);
